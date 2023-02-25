@@ -1,1 +1,4 @@
-This repo is meant as a practice space for problem-solving from places like LeetCode.
+This repo is meant as a practice space for problem solving in Ruby.
+
+The project_euler problems come from [Project Euler](https://projecteuler.net/archives).
+The leetcode_problems come from [LeetCode](https://leetcode.com/).
