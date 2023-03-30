@@ -48,18 +48,30 @@ puts "2. The sum of even-valued Fibonacci terms below #{prob2_num} is: #{problem
 # The prime factors of 13195 are 5, 7, 13 and 29.
 #
 # What is the largest prime factor of the number 600851475143 ?
-
-def problem_3(num)
-  # create prime factors from a minimum of the square root of num
-  # to a max of num/2 (because that's the largest potential prime),
-  # and then iterate through that collection of primes from largest end.
-
-  # starting_num = sqrt(num).to_i
-  # ending_num = num/2
+def factor?(num, denominator)
+  num % denominator == 0
 end
 
-# write a helper method that checks is_prime? from 2 up to the square root
-# of the number (which is the maximum possible divider where %% divider could == 0)
+def prime?(num)
+  denominator = 2
+  while denominator <= num/2
+    return false if num % denominator == 0
+    denominator += 1
+  end
+  true
+end
+
+def problem_3(num)
+  # Iterate from num/2 to 2, check if current integer is a factor and a
+  # prime, then return at the first integer when both are true.
+  largest = num/2
+
+  while largest >= 2
+    return largest if factor?(num, largest) && prime?(largest)
+
+    largest -= 1
+  end
+end
 
 prob3_num = 600_851_475_143
 puts "3. The largest prime factor of the number #{prob3_num} is: #{problem_3(prob3_num)}"
