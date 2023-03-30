@@ -135,14 +135,14 @@ puts "5. The smallest number evenly divisible by 1 to 20 is: #{problem_5(2, 20)}
 #   Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 def problem_6(num)
-  square_of_sums = sum_of_squares = 0
+  sum_of_numbers = sum_of_squares = 0
   (1..num).each do |n|
-    square_of_sums += n
+    sum_of_numbers += n
     sum_of_squares += n**2
   end
-  square_of_sums = square_of_sums**2
+  square_of_sum = sum_of_numbers**2
 
-  square_of_sums - sum_of_squares
+  square_of_sum - sum_of_squares
 end
 
 prob6_num = 100
