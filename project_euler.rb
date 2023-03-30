@@ -1,4 +1,7 @@
 # Problem 1 - Multiples of 3 and 5 ####################
+# If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+#
+# Find the sum of all the multiples of 3 or 5 below 1000.
 
 def problem_1(num)
   accum = 0
@@ -45,7 +48,6 @@ puts "2. The sum of even-valued Fibonacci terms below #{prob2_num} is: #{problem
 # The prime factors of 13195 are 5, 7, 13 and 29.
 #
 # What is the largest prime factor of the number 600851475143 ?
-
 
 def problem_3(num)
   # create prime factors from a minimum of the square root of num
@@ -111,3 +113,25 @@ def problem_5(lower_limit, upper_limit)
 end
 
 puts "5. The smallest number evenly divisible by 1 to 20 is: #{problem_5(2, 20)}"
+
+# Problem 6 - Sum square difference ###############################################
+#   The sum of the squares of the first ten natural numbers is
+#     1^2 + 2^2 + ... + 10^2 = 385
+#   The square of the sum of the first ten natural numbers is
+#     (1 + 2 + ... + 10)^2 = 55^2 = 3025
+#   Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 - 385 = 2640.
+#   Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+
+def problem_6(num)
+  square_of_sums = sum_of_squares = 0
+  (1..num).each do |n|
+    square_of_sums += n
+    sum_of_squares += n**2
+  end
+  square_of_sums = square_of_sums**2
+
+  square_of_sums - sum_of_squares
+end
+
+prob6_num = 100
+puts "6. The difference between the sum of the squares of the first #{prob6_num} natural numbers and the square of the sum is: #{problem_6(prob6_num)}"
