@@ -1,7 +1,7 @@
 # Problem 1 - Multiples of 3 and 5 ####################
-# If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+#   If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 #
-# Find the sum of all the multiples of 3 or 5 below 1000.
+#   Find the sum of all the multiples of 3 or 5 below 1000.
 
 def problem_1(num)
   accum = 0
@@ -13,17 +13,16 @@ prob1_num = 1_000
 puts "1. The sum of multiples of 3 or 5 below #{prob1_num} is: #{problem_1(prob1_num)}"
 
 # Problem 2 - Even Fibonacci numbers ##########################################
-
-# Recursive solution, which I had to abandon because it causes a stack
-# level too deep when the upper_limit is too high (like 4_000_000)
+#   Recursive solution, which I had to abandon because it causes a stack
+#   level too deep when the upper_limit is too high (like 4_000_000)
 #
-# def problem_2_build_fib_array(upper_limit)
-#   return [1,2] if upper_limit == 2
-#   fib_array = problem_2_build_fib_array(upper_limit - 1)
-#   next_potential_num = fib_array[-1] + fib_array[-2]
-#   fib_array << next_potential_num if next_potential_num < upper_limit
-#   fib_array
-# end
+#   def problem_2_build_fib_array(upper_limit)
+#     return [1,2] if upper_limit == 2
+#     fib_array = problem_2_build_fib_array(upper_limit - 1)
+#     next_potential_num = fib_array[-1] + fib_array[-2]
+#     fib_array << next_potential_num if next_potential_num < upper_limit
+#     fib_array
+#   end
 
 def problem_2_build_fib_array(upper_limit)
   fib_array = [1,2]
@@ -45,9 +44,9 @@ prob2_num = 4_000_000
 puts "2. The sum of even-valued Fibonacci terms below #{prob2_num} is: #{problem_2(prob2_num)}"
 
 # Problem 3 - Largest Prime Factor ############################################
-# The prime factors of 13195 are 5, 7, 13 and 29.
+#   The prime factors of 13195 are 5, 7, 13 and 29.
 #
-# What is the largest prime factor of the number 600851475143 ?
+#   What is the largest prime factor of the number 600851475143 ?
 def factor?(num, denominator)
   num % denominator == 0
 end
@@ -77,8 +76,8 @@ prob3_num = 600_851_475_143
 puts "3. The largest prime factor of the number #{prob3_num} is: #{problem_3(prob3_num)}"
 
 # Problem 4 - Largest Palindrome Factor #######################################
-# A palindromic number reads the same both ways.
-# Find the largest palindrome made from the product of two 3-digit numbers.
+#   A palindromic number reads the same both ways.
+#   Find the largest palindrome made from the product of two 3-digit numbers.
 
 def problem_4
   num1 = 999
@@ -107,9 +106,9 @@ end
 puts "4. The largest palindromic product of two 3-digit numbers is: #{problem_4}"
 
 # Problem 5 - Smallest multiple ###############################################
-# 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+#   2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 #
-# What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+#   What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
 def problem_5(lower_limit, upper_limit)
   searching = true
@@ -147,3 +146,38 @@ end
 
 prob6_num = 100
 puts "6. The difference between the sum of the squares of the first #{prob6_num} natural numbers and the square of the sum is: #{problem_6(prob6_num)}"
+
+# Problem 7 - 10001st prime ###############################################
+#   By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+#   What is the 10_001st prime number?
+
+# Straightforward would be: check each number from 2 up, check if it's a prime, then output the [num]th prime,
+# but that is too inefficient and Project Euler wants every problem to take < 60 seconds.
+# Facts about primes that'll make this more efficient by cutting down the search space:
+#   2 is the only even prime
+#   All primes > 3 are prime = 6n -+ 1
+#   The only numbers that satisfy 6n -+ 1 but still aren't primes are divisible by a smaller prime number.
+def divisible_by_prime?(possible_prime, known_primes)
+  known_primes.each do |prime|
+    return true if possible_prime % prime == 0
+  end
+
+  false
+end
+
+def problem_7(num)
+  known_primes = [2, 3]
+  n = 1
+
+  while known_primes.length < num
+    [6 * n - 1, 6 * n + 1].each do |possible_prime|
+      known_primes << possible_prime unless divisible_by_prime?(possible_prime, known_primes)
+    end
+    n += 1
+  end
+
+  known_primes[num-1]
+end
+
+prob7_num = 10_001
+puts "7. The #{prob7_num} prime number is: #{problem_7(prob7_num)}"
