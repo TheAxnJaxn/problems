@@ -7,6 +7,7 @@
 |  101 | Symmetric Tree | [Ruby](./ruby_solutions/101_symmetric_tree.rb) |
 |  104 | Maximum Depth of Binary Tree | [Ruby](./ruby_solutions/104_maximum_depth_of_binary_tree.rb) |
 |  183 | Customers Who Never Order | [Ruby](./ruby_solutions/183_customers_who_never_order.rb) |
+|  189 | Rotate Array | [Ruby](./ruby_solutions/189_rotate_array.rb) |
 |  523 | Continuous Subarray Sum | [Ruby](./ruby_solutions/523_continuous_subarray_sum.rb) |
 | 1004 | Max Consecutive Ones III | [Ruby](./ruby_solutions/1004_max_consecutive_ones_iii.rb) |
 | 2404 | Most Frequent Even Element | [Ruby](./ruby_solutions/2404_most_frequent_even_element.rb) |
