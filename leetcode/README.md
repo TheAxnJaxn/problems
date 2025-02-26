@@ -6,6 +6,7 @@
 |   35 | Search Insert Position | [Ruby](./ruby_solutions/35_search_insert_position.rb) |
 |  101 | Symmetric Tree | [Ruby](./ruby_solutions/101_symmetric_tree.rb) |
 |  104 | Maximum Depth of Binary Tree | [Ruby](./ruby_solutions/104_maximum_depth_of_binary_tree.rb) |
+|  149 | Max Points on a Line | [Ruby](./ruby_solutions/149_max_points_on_a_line.rb) |
 |  183 | Customers Who Never Order | [Ruby](./ruby_solutions/183_customers_who_never_order.rb) |
 |  189 | Rotate Array | [Ruby](./ruby_solutions/189_rotate_array.rb) |
 |  383 | Ransome Note | [Ruby](./ruby_solutions/383_ransom_note.rb) |
