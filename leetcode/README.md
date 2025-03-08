@@ -7,6 +7,7 @@
 |  101 | Symmetric Tree | [Ruby](./ruby_solutions/101_symmetric_tree.rb) |
 |  104 | Maximum Depth of Binary Tree | [Ruby](./ruby_solutions/104_maximum_depth_of_binary_tree.rb) |
 |  125 | Valid Palindrome | [Ruby](./ruby_solutions/125_valid_palindrome.rb) |
+|  135 | Candy | [Ruby](./ruby_solutions/135_candy.rb) |
 |  136 | Single Number | [Ruby](./ruby_solutions/136_single_number.rb) |
 |  137 | Single Number II | [Ruby](./ruby_solutions/137_single_number_ii.rb) |
 |  149 | Max Points on a Line | [Ruby](./ruby_solutions/149_max_points_on_a_line.rb) |
