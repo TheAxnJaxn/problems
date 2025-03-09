@@ -1,3 +1,4 @@
+#########################
 # 137. Single Number II
 #
 # Given an integer array nums where every element appears three times except for one, which appears exactly once. Find the single element and return it.
@@ -16,10 +17,11 @@
 #   -231 <= nums[i] <= 231 - 1
 #   Each element in nums appears exactly three times except for one element which appears once.
 # 
+#########################
 # @param {Integer[]} nums
 # @return {Integer}
-# Ruby's Enumberable method #count has a time complexity of O(n) and space complexity of O(1)
-# Beats 6% Runtime, 63% Memory
 def single_number(nums)
   nums.each { |n| return n if nums.count(n) == 1 }
 end
+#########################
+# Beats 6% Runtime, 63% Memory

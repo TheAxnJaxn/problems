@@ -1,3 +1,4 @@
+#########################
 # 125. Valid Palindrome
 # A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
 #
@@ -21,6 +22,7 @@
 #   1 <= s.length <= 2 * 105
 #   s consists only of printable ASCII characters.
 #
+#########################
 # @param {String} s
 # @return {Boolean}
 def is_palindrome(s)
@@ -43,6 +45,8 @@ def is_palindrome(s)
 
   return true
 end
+#########################
+# Beats 46% Runtime, 92% Memory
 
 # If you're not worried about using more memory or modifying the input, this
 # is a common Ruby way to strip away unwanted characters, convert to lowercase

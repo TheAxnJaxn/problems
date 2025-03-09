@@ -46,6 +46,9 @@ def rotate(nums, k)
 
   nums.replace(rotated)
 end
+#########################
+# Beats 55% Runtime, 85% Memory
+#########################
 
 # Verify the shift amount k is smaller than the Array length,
 # use Array#pop to take the last k elements off the end of the Array,
