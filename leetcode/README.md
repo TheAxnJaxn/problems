@@ -2,6 +2,7 @@
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|    1 | Two Sum | [Ruby](./ruby_solutions/1_two_sum.rb) |
 |    9 | Palindrome Number | [Ruby](./ruby_solutions/9_palindrome_number.rb) |
 |   27 | Remove Element | [Ruby](./ruby_solutions/27_remove_element.rb) |
 |   35 | Search Insert Position | [Ruby](./ruby_solutions/35_search_insert_position.rb) |
