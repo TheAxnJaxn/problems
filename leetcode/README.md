@@ -17,6 +17,7 @@
 |  167 | Two Sum II - Input Array Is Sorted | [Ruby](./ruby_solutions/167_two_sum_ii.rb) |
 |  183 | Customers Who Never Order | [Ruby](./ruby_solutions/183_customers_who_never_order.rb) |
 |  189 | Rotate Array | [Ruby](./ruby_solutions/189_rotate_array.rb) |
+|  242 | Valid Anagram | [Ruby](./ruby_solutions/242_valid_anagram.rb) |
 |  383 | Ransome Note | [Ruby](./ruby_solutions/383_ransom_note.rb) |
 |  523 | Continuous Subarray Sum | [Ruby](./ruby_solutions/523_continuous_subarray_sum.rb) |
 | 1004 | Max Consecutive Ones III | [Ruby](./ruby_solutions/1004_max_consecutive_ones_iii.rb) |
