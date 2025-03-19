@@ -32,6 +32,9 @@
 # @param {Integer[]} numbers
 # @param {Integer} target
 # @return {Integer[]}
+
+# Build a hash from the numbers Array, where the number is the key and the index is the value,
+# and check if the Hash already has a key that could add to the current number to equal target.
 def two_sum(numbers, target)
   num_i = {}
 
@@ -39,9 +42,32 @@ def two_sum(numbers, target)
       return [num_i[target - n] + 1, i + 1] if num_i.key?(target - n)
       num_i[n] = i
   end
-
-  []
 end
 #########################
-# Beats 100% Runtime, 52% Memory
+# Beats 100% Runtime, 53% Memory
 # O(n) Time Complexity, O(n) Space Complexity
+#########################
+
+# Remembering that the Array is sorted and we're guaranteed exactly one solution,
+# store two index pointers for the first and last elements of the Array, add those
+# two elements together, and either return the solution or move the appropriate pointer.
+def two_sum2(numbers, target)
+  left = 0
+  right = numbers.length - 1
+
+  while left < right
+    sum = numbers[left] + numbers[right]
+
+    if sum == target
+      return [left + 1, right + 1]
+    elsif sum > target
+      right -= 1
+    elsif sum < target
+      left += 1
+    end
+  end
+end
+#########################
+# Beats 89% Runtime, 13% Memory
+# O(n) Time Complexity, O(1) Space Complexity
+#########################
