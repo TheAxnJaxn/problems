@@ -33,9 +33,32 @@
 # @param {Integer[]} digits
 # @return {Integer[]}
 def plus_one(digits)
-  number = digits.inject(0) { |result, digit| result * 10 + digit }
-  number += 1
-  digits = number.digits.reverse
+  index = digits.length - 1
+
+  if digits[index] < 9
+    digits[index] += 1
+  else
+    # while the current digit is 9: set it to 0, move the index left.
+    # Break out of the loop and add a 1 to the front of digits if all digits were 9.
+    # Break out of the loop and add 1 to the current digit if it's less than 9.
+    while digits[index] == 9
+      digits[index] = 0
+      index -= 1
+
+      break digits.unshift(1) if index < 0
+      break digits[index] += 1 if digits[index] < 9
+    end
+  end
+
+  return digits
 end
 #########################
-# Beats 100% Runtime, 28% Memory
+# Beats 100% Runtime, 91% Memory
+
+#########################
+# This is readable, short Ruby way of doing this, but it's not as efficient.
+def plus_one2(digits)
+  digits.join.to_i.next.digits.reverse
+end
+#########################
+# Beats 100% Runtime, 82% Memory
