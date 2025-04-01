@@ -7,6 +7,7 @@
 |   15 | 3Sum                               | [Ruby](./ruby_solutions/15_3sum.rb) |
 |   27 | Remove Element                     | [Ruby](./ruby_solutions/27_remove_element.rb) |
 |   35 | Search Insert Position             | [Ruby](./ruby_solutions/35_search_insert_position.rb) |
+|   42 | Trapping Rain Water                | [Ruby](./ruby_solutions/42_trapping_rain_water.rb) |
 |   66 | Plus One                           | [Ruby](./ruby_solutions/66_plus_one.rb) |
 |   79 | Word Search                        | [Ruby](./ruby_solutions/79_word_search.rb) |
 |  101 | Symmetric Tree                     | [Ruby](./ruby_solutions/101_symmetric_tree.rb) |
