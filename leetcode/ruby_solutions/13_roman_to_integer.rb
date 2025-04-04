@@ -47,6 +47,41 @@
 #########################
 # @param {String} s
 # @return {Integer}
+def roman_to_int(s)
+  int = 0
+
+  (0...s.length).each do |i|
+      case s[i]
+      when 'I'
+          int += 1 * sign(s[i+1], ['V', 'X'])
+      when 'V'
+          int += 5
+      when 'X'
+          int += 10 * sign(s[i+1], ['L', 'C'])
+      when 'L'
+          int += 50
+      when 'C'
+          int += 100 * sign(s[i+1], ['D', 'M'])
+      when 'D'
+          int += 500
+      when 'M'
+          int += 1000
+      end
+  end
+
+  int
+end
+
+def sign(next_char, negs)
+  !next_char.nil? && negs.include?(next_char) ? -1 : 1
+end
+#########################
+# Time complexity O(n), Space complexity O(1)
+# Beats 62% Runtime, 58% Memory
+# This solution is faster than the following because we're only calculating whether
+# it's negative or positive for the specific cases which could be negative.
+#########################
+#
 # Iterate over the String s once, looking at each numeral.
 # If the current numeral is smaller than the next numeral, then subtract it.
 # Otherwise, add it to the result.
