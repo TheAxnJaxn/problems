@@ -24,6 +24,7 @@
 |  167 | Two Sum II - Input Array Is Sorted | [Ruby](./ruby_solutions/167_two_sum_ii.rb)                    |
 |  183 | Customers Who Never Order          | [Ruby](./ruby_solutions/183_customers_who_never_order.rb)     |
 |  189 | Rotate Array                       | [Ruby](./ruby_solutions/189_rotate_array.rb)                  |
+|  200 | Number of Islands                  | [Ruby](./ruby_solutions/200_number_of_islands.rb)             |
 |  209 | Minimum Size Subarray Sum          | [Ruby](./ruby_solutions/209_minimum_size_subarray_sum.rb)     |
 |  228 | Summary Ranges                     | [Ruby](./ruby_solutions/228_summary_ranges.rb)                |
 |  242 | Valid Anagram                      | [Ruby](./ruby_solutions/242_valid_anagram.rb)                 |
