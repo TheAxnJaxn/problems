@@ -6,6 +6,7 @@
 |    9 | Palindrome Number                  | [Ruby](./ruby_solutions/9_palindrome_number.rb)               |
 |   13 | Roman to Integer                   | [Ruby](./ruby_solutions/13_roman_to_integer.rb)               |
 |   15 | 3Sum                               | [Ruby](./ruby_solutions/15_3sum.rb)                           |
+|   20 | Valid Parentheses                  | [Ruby](./ruby_solutions/20_valid_parentheses.rb)              |
 |   27 | Remove Element                     | [Ruby](./ruby_solutions/27_remove_element.rb)                 |
 |   35 | Search Insert Position             | [Ruby](./ruby_solutions/35_search_insert_position.rb)         |
 |   42 | Trapping Rain Water                | [Ruby](./ruby_solutions/42_trapping_rain_water.rb)            |
