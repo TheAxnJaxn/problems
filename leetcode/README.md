@@ -5,6 +5,7 @@
 |    1 | Two Sum                            | [Ruby](./ruby_solutions/1_two_sum.rb)                         |
 |    9 | Palindrome Number                  | [Ruby](./ruby_solutions/9_palindrome_number.rb)               |
 |   13 | Roman to Integer                   | [Ruby](./ruby_solutions/13_roman_to_integer.rb)               |
+|   14 | Longest Common Prefix              | [Ruby](./ruby_solutions/14_longest_common_prefix.rb)          |
 |   15 | 3Sum                               | [Ruby](./ruby_solutions/15_3sum.rb)                           |
 |   20 | Valid Parentheses                  | [Ruby](./ruby_solutions/20_valid_parentheses.rb)              |
 |   27 | Remove Element                     | [Ruby](./ruby_solutions/27_remove_element.rb)                 |
