@@ -15,6 +15,7 @@
 |   67 | Add Binary                         | [Ruby](./ruby_solutions/67_add_binary.rb)                     |
 |   70 | Climbing Stairs                    | [Ruby](./ruby_solutions/70_climbing_stairs.rb)                |
 |   79 | Word Search                        | [Ruby](./ruby_solutions/79_word_search.rb)                    |
+|   88 | Merge Sorted Array                 | [Ruby](./ruby_solutions/88_merge_sorted_array.rb)             |
 |  101 | Symmetric Tree                     | [Ruby](./ruby_solutions/101_symmetric_tree.rb)                |
 |  104 | Maximum Depth of Binary Tree       | [Ruby](./ruby_solutions/104_maximum_depth_of_binary_tree.rb)  |
 |  120 | Triangle                           | [Ruby](./ruby_solutions/120_triangle.rb)                      |
