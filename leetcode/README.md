@@ -14,6 +14,7 @@
 |   50 | Pow(x, n)                          | [Ruby](./ruby_solutions/50_pow_x_n.rb)                        |
 |   66 | Plus One                           | [Ruby](./ruby_solutions/66_plus_one.rb)                       |
 |   67 | Add Binary                         | [Ruby](./ruby_solutions/67_add_binary.rb)                     |
+|   69 | Sqrt(x)                            | [Ruby](./ruby_solutions/69_sqrt_x.rb)                         |
 |   70 | Climbing Stairs                    | [Ruby](./ruby_solutions/70_climbing_stairs.rb)                |
 |   79 | Word Search                        | [Ruby](./ruby_solutions/79_word_search.rb)                    |
 |   88 | Merge Sorted Array                 | [Ruby](./ruby_solutions/88_merge_sorted_array.rb)             |
