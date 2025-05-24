@@ -30,6 +30,7 @@
 |  137 | Single Number II                       | [Ruby](./ruby_solutions/137_single_number_ii.rb)                      |
 |  149 | Max Points on a Line                   | [Ruby](./ruby_solutions/149_max_points_on_a_line.rb)                  |
 |  167 | Two Sum II - Input Array Is Sorted     | [Ruby](./ruby_solutions/167_two_sum_ii.rb)                            |
+|  169 | Majority Element                       | [Ruby](./ruby_solutions/169_majority_element.rb)                      |
 |  172 | Factorial Trailing Zeroes              | [Ruby](./ruby_solutions/172_factorial_trailing_zeroes.rb)             |
 |  183 | Customers Who Never Order              | [Ruby](./ruby_solutions/183_customers_who_never_order.rb)             |
 |  189 | Rotate Array                           | [Ruby](./ruby_solutions/189_rotate_array.rb)                          |
