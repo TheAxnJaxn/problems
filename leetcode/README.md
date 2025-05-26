@@ -24,6 +24,7 @@
 |  104 | Maximum Depth of Binary Tree           | [Ruby](./ruby_solutions/104_maximum_depth_of_binary_tree.rb)          |
 |  120 | Triangle                               | [Ruby](./ruby_solutions/120_triangle.rb)                              |
 |  121 | Best Time to Buy and Sell Stock        | [Ruby](./ruby_solutions/121_best_time_to_buy_and_sell_stock.rb)       |
+|  122 | Best Time to Buy and Sell Stock II     | [Ruby](./ruby_solutions/122_best_time_to_buy_and_sell_stock.rb)       |
 |  125 | Valid Palindrome                       | [Ruby](./ruby_solutions/125_valid_palindrome.rb)                      |
 |  134 | Gas Station                            | [Ruby](./ruby_solutions/134_gas_station.rb)                           |
 |  135 | Candy                                  | [Ruby](./ruby_solutions/135_candy.rb)                                 |
