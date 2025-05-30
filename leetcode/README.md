@@ -13,6 +13,7 @@
 |   35 | Search Insert Position                 | [Ruby](./ruby_solutions/35_search_insert_position.rb)                 |
 |   42 | Trapping Rain Water                    | [Ruby](./ruby_solutions/42_trapping_rain_water.rb)                    |
 |   50 | Pow(x, n)                              | [Ruby](./ruby_solutions/50_pow_x_n.rb)                                |
+|   58 | Length of Last Word                    | [Ruby](./ruby_solutions/58_length_of_last_word.rb)                    |
 |   66 | Plus One                               | [Ruby](./ruby_solutions/66_plus_one.rb)                               |
 |   67 | Add Binary                             | [Ruby](./ruby_solutions/67_add_binary.rb)                             |
 |   69 | Sqrt(x)                                | [Ruby](./ruby_solutions/69_sqrt_x.rb)                                 |
