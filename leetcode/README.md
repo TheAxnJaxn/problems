@@ -46,6 +46,7 @@
 |  242 | Valid Anagram                          | [Ruby](./ruby_solutions/242_valid_anagram.rb)                         |
 |  274 | H-Index                                | [Ruby](./ruby_solutions/274_h_index.rb)                               |
 |  295 | Find Median from Data Stream           | [Ruby](./ruby_solutions/295_find_median.rb)                           |
+|  380 | Insert Delete GetRandom O(1)           | [Ruby](./ruby_solutions/380_insert_delete_getrandom.rb)               |
 |  383 | Ransome Note                           | [Ruby](./ruby_solutions/383_ransom_note.rb)                           |
 |  392 | Is Subsequence                         | [Ruby](./ruby_solutions/392_is_subsequence.rb)                        |
 |  523 | Continuous Subarray Sum                | [Ruby](./ruby_solutions/523_continuous_subarray_sum.rb)               |
