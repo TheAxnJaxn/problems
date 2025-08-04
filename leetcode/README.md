@@ -3,6 +3,7 @@
 | # | Title | Solution |
 |---| ----- | -------- |
 |    1 | Two Sum                                | [Ruby](./ruby_solutions/1_two_sum.rb)                                 |
+|    6 | Zigzag Conversion                      | [Ruby](./ruby_solutions/6_zigzag_conversion.rb)                       |
 |    9 | Palindrome Number                      | [Ruby](./ruby_solutions/9_palindrome_number.rb)                       |
 |   12 | Integer to Roman                       | [Ruby](./ruby_solutions/12_integer_to_roman.rb)                       |
 |   13 | Roman to Integer                       | [Ruby](./ruby_solutions/13_roman_to_integer.rb)                       |
@@ -35,6 +36,7 @@
 |  136 | Single Number                          | [Ruby](./ruby_solutions/136_single_number.rb)                         |
 |  137 | Single Number II                       | [Ruby](./ruby_solutions/137_single_number_ii.rb)                      |
 |  149 | Max Points on a Line                   | [Ruby](./ruby_solutions/149_max_points_on_a_line.rb)                  |
+|  151 | Reverse Words in a String              | [Ruby](./ruby_solutions/151_reverse_words_in_a_string.rb)             |
 |  167 | Two Sum II - Input Array Is Sorted     | [Ruby](./ruby_solutions/167_two_sum_ii.rb)                            |
 |  169 | Majority Element                       | [Ruby](./ruby_solutions/169_majority_element.rb)                      |
 |  172 | Factorial Trailing Zeroes              | [Ruby](./ruby_solutions/172_factorial_trailing_zeroes.rb)             |
@@ -43,7 +45,7 @@
 |  200 | Number of Islands                      | [Ruby](./ruby_solutions/200_number_of_islands.rb)                     |
 |  209 | Minimum Size Subarray Sum              | [Ruby](./ruby_solutions/209_minimum_size_subarray_sum.rb)             |
 |  228 | Summary Ranges                         | [Ruby](./ruby_solutions/228_summary_ranges.rb)                        |
-|  238 | Product of Array Except Self           | [Ruby](./ruby_solutions/238_product_of_array_except_self.rb)
+|  238 | Product of Array Except Self           | [Ruby](./ruby_solutions/238_product_of_array_except_self.rb)          |
 |  242 | Valid Anagram                          | [Ruby](./ruby_solutions/242_valid_anagram.rb)                         |
 |  274 | H-Index                                | [Ruby](./ruby_solutions/274_h_index.rb)                               |
 |  295 | Find Median from Data Stream           | [Ruby](./ruby_solutions/295_find_median.rb)                           |
