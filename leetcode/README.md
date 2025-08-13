@@ -12,6 +12,7 @@
 |   20 | Valid Parentheses                      | [Ruby](./ruby_solutions/20_valid_parentheses.rb)                      |
 |   26 | Remove Duplicates from Sorted Array    | [Ruby](./ruby_solutions/26_remove_duplicates_from_sorted_array.rb)    |
 |   27 | Remove Element                         | [Ruby](./ruby_solutions/27_remove_element.rb)                         |
+|   28 | Find the Index of the First Occurrence | [Ruby](./ruby_solutions/28_find_the_index_of_the_first_occurrence.rb) |
 |   35 | Search Insert Position                 | [Ruby](./ruby_solutions/35_search_insert_position.rb)                 |
 |   42 | Trapping Rain Water                    | [Ruby](./ruby_solutions/42_trapping_rain_water.rb)                    |
 |   45 | Jump Game II                           | [Ruby](./ruby_solutions/45_jump_game_ii.rb)                           |
